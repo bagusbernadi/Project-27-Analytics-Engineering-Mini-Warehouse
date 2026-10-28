@@ -21,7 +21,7 @@ Rancangan memecahnya menjadi 14 pertanyaan (9 Utama, 4 Pendukung, 1 Tambahan) da
 
 ## 2. Data
 
-- Sumber: data simulasi buatan sendiri, dibuat oleh `scripts/generate_raw.py` (Versi: v1, rancangan; Tanggal dibuat: saat Tahap B dikerjakan). Tidak memakai dataset publik atau data perusahaan.
+- Sumber: data simulasi buatan sendiri, dibuat oleh `scripts/generate_raw.py` (Versi: v1; Tanggal dibuat: 28 Okt 2026; Seed: 27260302). Tidak memakai dataset publik atau data perusahaan.
 - Konteks: 10 stasiun produksi lampu LED, 3 model (5W, 9W, 12W), 2 shift, ±20 operator.
 - Ukuran (perkiraan): ±150 file harian (6 bulan); ±9.000 baris produksi, ±15.000 baris defect. Untuk benchmark, data diperbesar menjadi ±1 juta baris.
 - Rencana model dbt: 3 staging (`stg_production`, `stg_defect`, `stg_rework`), 2 dimensi (`dim_station`, `dim_defect`), 3 fakta (`fct_kpi_daily`, `fct_defect_pareto`, `fct_line_weekly`).
