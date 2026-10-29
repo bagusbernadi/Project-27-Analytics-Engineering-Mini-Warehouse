@@ -1,0 +1,11 @@
+dari,ke,jenis_ke
+defect,stg_defect,model
+dim_station,stg_defect,model
+dim_station,stg_production,model
+dim_station,stg_rework,model
+fct_kpi_daily,fct_line_weekly,model
+production,stg_production,model
+rework,stg_rework,model
+stg_defect,fct_defect_pareto,model
+stg_production,fct_kpi_daily,model
+stg_rework,fct_kpi_daily,model

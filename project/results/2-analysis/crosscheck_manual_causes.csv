@@ -1,0 +1,6 @@
+dirty_type,rows_in_sample,effect_on_manual_recap
+blank_qty,9,NG kosong dihitung 0: NG dan NG rate terlalu rendah
+duplicate_row,8,"baris ganda terhitung dua kali di input, OK, dan NG"
+lowercase_station,9,tidak berpengaruh (SUMIFS tidak membedakan huruf besar/kecil)
+negative_qty,9,NG negatif mengurangi total NG
+text_qty,9,"input bertulis teks diabaikan: input terlalu kecil, FPY terlalu tinggi"

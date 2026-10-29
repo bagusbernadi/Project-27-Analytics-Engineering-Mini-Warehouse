@@ -1,0 +1,34 @@
+version: 2
+models:
+  - name: dim_station
+    description: "Sepuluh stasiun berurutan."
+    columns:
+      - {name: station_code, tests: [not_null, unique]}
+      - {name: station_name, tests: [not_null, unique]}
+      - {name: sequence, tests: [not_null, unique]}
+  - name: dim_defect
+    description: "Kode defect, nama, dan kategori (nama dan kategori dibuat untuk simulasi)."
+    columns:
+      - {name: defect_code, tests: [not_null, unique]}
+      - {name: category, tests: [not_null]}
+  - name: fct_kpi_daily
+    description: "KPI harian per stasiun, model, shift: FPY, NG rate, rework rate, scrap rate."
+    columns:
+      - {name: kpi_key, tests: [not_null, unique]}
+      - {name: date, tests: [not_null]}
+      - {name: fpy, description: "OK pertama ÷ input.", tests: [not_null]}
+      - {name: ng_rate, description: "NG ÷ input.", tests: [not_null]}
+      - {name: rework_rate, description: "Unit rework ÷ input.", tests: [not_null]}
+      - {name: scrap_rate, description: "(NG − pulih) ÷ input.", tests: [not_null]}
+  - name: fct_defect_pareto
+    description: "Defect per stasiun per minggu dengan porsi dan porsi kumulatif."
+    columns:
+      - {name: week, tests: [not_null]}
+      - {name: share, tests: [not_null]}
+      - {name: cum_share, tests: [not_null]}
+  - name: fct_line_weekly
+    description: "RTY, yield akhir, dan rework rate seluruh lini per minggu dan model."
+    columns:
+      - {name: week, tests: [not_null]}
+      - {name: rty, description: "Hasil kali FPY semua stasiun.", tests: [not_null]}
+      - {name: final_yield, tests: [not_null]}

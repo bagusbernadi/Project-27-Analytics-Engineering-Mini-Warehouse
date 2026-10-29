@@ -1,0 +1,6 @@
+dirty_type,test,planted,detected,files_planted,files_detected,exact_per_file
+blank_qty,raw_production_ng_blank,60,60,60,60,True
+negative_qty,raw_production_ng_negative,60,60,60,60,True
+text_qty,raw_production_qty_not_numeric,60,60,60,60,True
+lowercase_station,raw_production_station_not_standard,60,60,60,60,True
+duplicate_row,raw_production_duplicate,60,60,60,60,True

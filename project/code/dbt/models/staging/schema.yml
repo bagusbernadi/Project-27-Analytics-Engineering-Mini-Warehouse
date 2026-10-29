@@ -1,0 +1,34 @@
+version: 2
+models:
+  - name: stg_production
+    description: "Hasil satu stasiun, model, shift, hari, sudah dirapikan (aturan S1 sampai S5 di docs/cleaning_log.md)."
+    columns:
+      - {name: prod_key, description: "Kunci gabungan tanggal, shift, stasiun, model.", tests: [not_null, unique]}
+      - {name: date, tests: [not_null]}
+      - name: shift
+        tests: [not_null, {accepted_values: {arguments: {values: ["Shift 1", "Shift 2"]}}}]
+      - name: station_code
+        description: "Kode stasiun dari dim_station."
+        tests: [not_null, {relationships: {arguments: {to: ref('dim_station'), field: station_code}}}]
+      - name: model
+        tests: [not_null, {accepted_values: {arguments: {values: ["5W", "9W", "12W"]}}}]
+      - {name: input_qty, description: "Jumlah unit masuk.", tests: [not_null]}
+      - {name: ok_first_pass, description: "Unit OK pada pemeriksaan pertama.", tests: [not_null]}
+      - {name: ng_qty, description: "Unit NG; dihitung ulang bila kosong atau negatif di file mentah.", tests: [not_null]}
+  - name: stg_defect
+    description: "Jumlah satu jenis defect di satu stasiun, model, shift, hari."
+    columns:
+      - {name: date, tests: [not_null]}
+      - name: station_code
+        tests: [not_null, {relationships: {arguments: {to: ref('dim_station'), field: station_code}}}]
+      - name: defect_code
+        tests: [not_null, {relationships: {arguments: {to: ref('dim_defect'), field: defect_code}}}]
+      - {name: qty, tests: [not_null]}
+  - name: stg_rework
+    description: "Kelompok unit rework dan yang pulih."
+    columns:
+      - {name: rework_id, tests: [not_null, unique]}
+      - name: station_code
+        tests: [not_null, {relationships: {arguments: {to: ref('dim_station'), field: station_code}}}]
+      - name: defect_code
+        tests: [not_null, {relationships: {arguments: {to: ref('dim_defect'), field: defect_code}}}]

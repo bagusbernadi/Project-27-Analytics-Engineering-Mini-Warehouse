@@ -1,0 +1,25 @@
+name: led_warehouse
+version: "1.0.0"
+config-version: 2
+profile: led_warehouse
+model-paths: ["models"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target"]
+
+vars:
+  # Tanda tangan kolom (sheet:kolom1|kolom2|...) yang diterima. Run deteksi menimpa dengan hanya skema v1 untuk menunjukkan test skema gagal.
+  accepted_signatures:
+    - "production:date|shift|station|model|operator_id|qty_input|qty_ok|qty_ng"
+    - "production:date|shift|station|model|operator_id|input_qty|ok_qty|ng_qty|line_id"
+    - "defect:date|shift|station|model|defect_code|qty"
+    - "defect:date|shift|station|model|defect_cd|qty"
+    - "rework:date|shift|station|model|defect_code|qty_rework|qty_recovered"
+  freshness_max_lag_days: 1       # selisih hari kerja maksimum antara tanggal bisnis dan tanggal file diterima
+
+models:
+  led_warehouse:
+    staging:
+      +materialized: table
+    marts:
+      +materialized: table

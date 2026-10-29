@@ -1,0 +1,661 @@
+week,station_code,defect_code,defect_name,category,qty
+2026-03-02,S01,CHP-01,Chip bergeser,Assembly,51.0
+2026-03-02,S01,CHP-02,Chip retak,Material,65.0
+2026-03-02,S02,SLD-01,Solder dingin,Assembly,39.0
+2026-03-02,S02,SLD-02,Solder jembatan,Assembly,49.0
+2026-03-02,S02,SLD-03,Solder kurang,Assembly,44.0
+2026-03-02,S03,DRV-01,Driver tidak menyala,Electrical,58.0
+2026-03-02,S03,DRV-02,Konektor longgar,Assembly,67.0
+2026-03-02,S04,HSG-01,Housing retak,Material,39.0
+2026-03-02,S04,HSG-02,Housing tidak rapat,Assembly,43.0
+2026-03-02,S05,POT-01,Potting bergelembung,Assembly,50.0
+2026-03-02,S05,POT-02,Potting kurang,Assembly,54.0
+2026-03-02,S06,WIR-01,Kabel putus,Electrical,42.0
+2026-03-02,S06,WIR-02,Polaritas terbalik,Electrical,47.0
+2026-03-02,S07,BRN-01,Gagal menyala saat burn-in,Electrical,183.0
+2026-03-02,S07,BRN-02,LED redup,Optical,173.0
+2026-03-02,S07,BRN-03,Flicker,Electrical,163.0
+2026-03-02,S08,PHM-01,Flux di bawah spec,Optical,59.0
+2026-03-02,S08,PHM-02,CCT di luar spec,Optical,69.0
+2026-03-02,S08,PHM-03,CRI di bawah spec,Optical,62.0
+2026-03-02,S09,FQC-01,Cacat visual,Cosmetic,39.0
+2026-03-02,S09,FQC-02,Label salah,Cosmetic,27.0
+2026-03-02,S10,PKG-01,Kemasan rusak,Packaging,39.0
+2026-03-09,S01,CHP-01,Chip bergeser,Assembly,43.0
+2026-03-09,S01,CHP-02,Chip retak,Material,41.0
+2026-03-09,S02,SLD-01,Solder dingin,Assembly,39.0
+2026-03-09,S02,SLD-02,Solder jembatan,Assembly,47.0
+2026-03-09,S02,SLD-03,Solder kurang,Assembly,35.0
+2026-03-09,S03,DRV-01,Driver tidak menyala,Electrical,67.0
+2026-03-09,S03,DRV-02,Konektor longgar,Assembly,59.0
+2026-03-09,S04,HSG-01,Housing retak,Material,51.0
+2026-03-09,S04,HSG-02,Housing tidak rapat,Assembly,58.0
+2026-03-09,S05,POT-01,Potting bergelembung,Assembly,56.0
+2026-03-09,S05,POT-02,Potting kurang,Assembly,51.0
+2026-03-09,S06,WIR-01,Kabel putus,Electrical,28.0
+2026-03-09,S06,WIR-02,Polaritas terbalik,Electrical,45.0
+2026-03-09,S07,BRN-01,Gagal menyala saat burn-in,Electrical,146.0
+2026-03-09,S07,BRN-02,LED redup,Optical,171.0
+2026-03-09,S07,BRN-03,Flicker,Electrical,170.0
+2026-03-09,S08,PHM-01,Flux di bawah spec,Optical,63.0
+2026-03-09,S08,PHM-02,CCT di luar spec,Optical,50.0
+2026-03-09,S08,PHM-03,CRI di bawah spec,Optical,55.0
+2026-03-09,S09,FQC-01,Cacat visual,Cosmetic,40.0
+2026-03-09,S09,FQC-02,Label salah,Cosmetic,28.0
+2026-03-09,S10,PKG-01,Kemasan rusak,Packaging,32.0
+2026-03-16,S01,CHP-01,Chip bergeser,Assembly,69.0
+2026-03-16,S01,CHP-02,Chip retak,Material,38.0
+2026-03-16,S02,SLD-01,Solder dingin,Assembly,56.0
+2026-03-16,S02,SLD-02,Solder jembatan,Assembly,42.0
+2026-03-16,S02,SLD-03,Solder kurang,Assembly,52.0
+2026-03-16,S03,DRV-01,Driver tidak menyala,Electrical,54.0
+2026-03-16,S03,DRV-02,Konektor longgar,Assembly,59.0
+2026-03-16,S04,HSG-01,Housing retak,Material,35.0
+2026-03-16,S04,HSG-02,Housing tidak rapat,Assembly,50.0
+2026-03-16,S05,POT-01,Potting bergelembung,Assembly,44.0
+2026-03-16,S05,POT-02,Potting kurang,Assembly,38.0
+2026-03-16,S06,WIR-01,Kabel putus,Electrical,38.0
+2026-03-16,S06,WIR-02,Polaritas terbalik,Electrical,34.0
+2026-03-16,S07,BRN-01,Gagal menyala saat burn-in,Electrical,159.0
+2026-03-16,S07,BRN-02,LED redup,Optical,158.0
+2026-03-16,S07,BRN-03,Flicker,Electrical,134.0
+2026-03-16,S08,PHM-01,Flux di bawah spec,Optical,42.0
+2026-03-16,S08,PHM-02,CCT di luar spec,Optical,48.0
+2026-03-16,S08,PHM-03,CRI di bawah spec,Optical,54.0
+2026-03-16,S09,FQC-01,Cacat visual,Cosmetic,33.0
+2026-03-16,S09,FQC-02,Label salah,Cosmetic,31.0
+2026-03-16,S10,PKG-01,Kemasan rusak,Packaging,28.0
+2026-03-23,S01,CHP-01,Chip bergeser,Assembly,43.0
+2026-03-23,S01,CHP-02,Chip retak,Material,49.0
+2026-03-23,S02,SLD-01,Solder dingin,Assembly,48.0
+2026-03-23,S02,SLD-02,Solder jembatan,Assembly,43.0
+2026-03-23,S02,SLD-03,Solder kurang,Assembly,44.0
+2026-03-23,S03,DRV-01,Driver tidak menyala,Electrical,58.0
+2026-03-23,S03,DRV-02,Konektor longgar,Assembly,61.0
+2026-03-23,S04,HSG-01,Housing retak,Material,57.0
+2026-03-23,S04,HSG-02,Housing tidak rapat,Assembly,47.0
+2026-03-23,S05,POT-01,Potting bergelembung,Assembly,48.0
+2026-03-23,S05,POT-02,Potting kurang,Assembly,62.0
+2026-03-23,S06,WIR-01,Kabel putus,Electrical,32.0
+2026-03-23,S06,WIR-02,Polaritas terbalik,Electrical,40.0
+2026-03-23,S07,BRN-01,Gagal menyala saat burn-in,Electrical,159.0
+2026-03-23,S07,BRN-02,LED redup,Optical,195.0
+2026-03-23,S07,BRN-03,Flicker,Electrical,157.0
+2026-03-23,S08,PHM-01,Flux di bawah spec,Optical,56.0
+2026-03-23,S08,PHM-02,CCT di luar spec,Optical,46.0
+2026-03-23,S08,PHM-03,CRI di bawah spec,Optical,63.0
+2026-03-23,S09,FQC-01,Cacat visual,Cosmetic,30.0
+2026-03-23,S09,FQC-02,Label salah,Cosmetic,40.0
+2026-03-23,S10,PKG-01,Kemasan rusak,Packaging,34.0
+2026-03-30,S01,CHP-01,Chip bergeser,Assembly,61.0
+2026-03-30,S01,CHP-02,Chip retak,Material,45.0
+2026-03-30,S02,SLD-01,Solder dingin,Assembly,46.0
+2026-03-30,S02,SLD-02,Solder jembatan,Assembly,45.0
+2026-03-30,S02,SLD-03,Solder kurang,Assembly,44.0
+2026-03-30,S03,DRV-01,Driver tidak menyala,Electrical,66.0
+2026-03-30,S03,DRV-02,Konektor longgar,Assembly,56.0
+2026-03-30,S04,HSG-01,Housing retak,Material,47.0
+2026-03-30,S04,HSG-02,Housing tidak rapat,Assembly,39.0
+2026-03-30,S05,POT-01,Potting bergelembung,Assembly,43.0
+2026-03-30,S05,POT-02,Potting kurang,Assembly,51.0
+2026-03-30,S06,WIR-01,Kabel putus,Electrical,42.0
+2026-03-30,S06,WIR-02,Polaritas terbalik,Electrical,37.0
+2026-03-30,S07,BRN-01,Gagal menyala saat burn-in,Electrical,199.0
+2026-03-30,S07,BRN-02,LED redup,Optical,165.0
+2026-03-30,S07,BRN-03,Flicker,Electrical,184.0
+2026-03-30,S08,PHM-01,Flux di bawah spec,Optical,56.0
+2026-03-30,S08,PHM-02,CCT di luar spec,Optical,65.0
+2026-03-30,S08,PHM-03,CRI di bawah spec,Optical,49.0
+2026-03-30,S09,FQC-01,Cacat visual,Cosmetic,34.0
+2026-03-30,S09,FQC-02,Label salah,Cosmetic,35.0
+2026-03-30,S10,PKG-01,Kemasan rusak,Packaging,35.0
+2026-04-06,S01,CHP-01,Chip bergeser,Assembly,42.0
+2026-04-06,S01,CHP-02,Chip retak,Material,38.0
+2026-04-06,S02,SLD-01,Solder dingin,Assembly,52.0
+2026-04-06,S02,SLD-02,Solder jembatan,Assembly,51.0
+2026-04-06,S02,SLD-03,Solder kurang,Assembly,55.0
+2026-04-06,S03,DRV-01,Driver tidak menyala,Electrical,57.0
+2026-04-06,S03,DRV-02,Konektor longgar,Assembly,66.0
+2026-04-06,S04,HSG-01,Housing retak,Material,54.0
+2026-04-06,S04,HSG-02,Housing tidak rapat,Assembly,44.0
+2026-04-06,S05,POT-01,Potting bergelembung,Assembly,60.0
+2026-04-06,S05,POT-02,Potting kurang,Assembly,55.0
+2026-04-06,S06,WIR-01,Kabel putus,Electrical,30.0
+2026-04-06,S06,WIR-02,Polaritas terbalik,Electrical,51.0
+2026-04-06,S07,BRN-01,Gagal menyala saat burn-in,Electrical,185.0
+2026-04-06,S07,BRN-02,LED redup,Optical,187.0
+2026-04-06,S07,BRN-03,Flicker,Electrical,157.0
+2026-04-06,S08,PHM-01,Flux di bawah spec,Optical,61.0
+2026-04-06,S08,PHM-02,CCT di luar spec,Optical,60.0
+2026-04-06,S08,PHM-03,CRI di bawah spec,Optical,67.0
+2026-04-06,S09,FQC-01,Cacat visual,Cosmetic,45.0
+2026-04-06,S09,FQC-02,Label salah,Cosmetic,36.0
+2026-04-06,S10,PKG-01,Kemasan rusak,Packaging,33.0
+2026-04-13,S01,CHP-01,Chip bergeser,Assembly,54.0
+2026-04-13,S01,CHP-02,Chip retak,Material,40.0
+2026-04-13,S02,SLD-01,Solder dingin,Assembly,51.0
+2026-04-13,S02,SLD-02,Solder jembatan,Assembly,59.0
+2026-04-13,S02,SLD-03,Solder kurang,Assembly,41.0
+2026-04-13,S03,DRV-01,Driver tidak menyala,Electrical,62.0
+2026-04-13,S03,DRV-02,Konektor longgar,Assembly,58.0
+2026-04-13,S04,HSG-01,Housing retak,Material,50.0
+2026-04-13,S04,HSG-02,Housing tidak rapat,Assembly,46.0
+2026-04-13,S05,POT-01,Potting bergelembung,Assembly,42.0
+2026-04-13,S05,POT-02,Potting kurang,Assembly,55.0
+2026-04-13,S06,WIR-01,Kabel putus,Electrical,32.0
+2026-04-13,S06,WIR-02,Polaritas terbalik,Electrical,31.0
+2026-04-13,S07,BRN-01,Gagal menyala saat burn-in,Electrical,184.0
+2026-04-13,S07,BRN-02,LED redup,Optical,184.0
+2026-04-13,S07,BRN-03,Flicker,Electrical,193.0
+2026-04-13,S08,PHM-01,Flux di bawah spec,Optical,46.0
+2026-04-13,S08,PHM-02,CCT di luar spec,Optical,46.0
+2026-04-13,S08,PHM-03,CRI di bawah spec,Optical,59.0
+2026-04-13,S09,FQC-01,Cacat visual,Cosmetic,32.0
+2026-04-13,S09,FQC-02,Label salah,Cosmetic,32.0
+2026-04-13,S10,PKG-01,Kemasan rusak,Packaging,32.0
+2026-04-20,S01,CHP-01,Chip bergeser,Assembly,37.0
+2026-04-20,S01,CHP-02,Chip retak,Material,36.0
+2026-04-20,S02,SLD-01,Solder dingin,Assembly,59.0
+2026-04-20,S02,SLD-02,Solder jembatan,Assembly,44.0
+2026-04-20,S02,SLD-03,Solder kurang,Assembly,52.0
+2026-04-20,S03,DRV-01,Driver tidak menyala,Electrical,47.0
+2026-04-20,S03,DRV-02,Konektor longgar,Assembly,56.0
+2026-04-20,S04,HSG-01,Housing retak,Material,46.0
+2026-04-20,S04,HSG-02,Housing tidak rapat,Assembly,47.0
+2026-04-20,S05,POT-01,Potting bergelembung,Assembly,47.0
+2026-04-20,S05,POT-02,Potting kurang,Assembly,64.0
+2026-04-20,S06,WIR-01,Kabel putus,Electrical,34.0
+2026-04-20,S06,WIR-02,Polaritas terbalik,Electrical,37.0
+2026-04-20,S07,BRN-01,Gagal menyala saat burn-in,Electrical,177.0
+2026-04-20,S07,BRN-02,LED redup,Optical,165.0
+2026-04-20,S07,BRN-03,Flicker,Electrical,187.0
+2026-04-20,S08,PHM-01,Flux di bawah spec,Optical,48.0
+2026-04-20,S08,PHM-02,CCT di luar spec,Optical,61.0
+2026-04-20,S08,PHM-03,CRI di bawah spec,Optical,53.0
+2026-04-20,S09,FQC-01,Cacat visual,Cosmetic,31.0
+2026-04-20,S09,FQC-02,Label salah,Cosmetic,31.0
+2026-04-20,S10,PKG-01,Kemasan rusak,Packaging,31.0
+2026-04-27,S01,CHP-01,Chip bergeser,Assembly,52.0
+2026-04-27,S01,CHP-02,Chip retak,Material,48.0
+2026-04-27,S02,SLD-01,Solder dingin,Assembly,29.0
+2026-04-27,S02,SLD-02,Solder jembatan,Assembly,44.0
+2026-04-27,S02,SLD-03,Solder kurang,Assembly,37.0
+2026-04-27,S03,DRV-01,Driver tidak menyala,Electrical,64.0
+2026-04-27,S03,DRV-02,Konektor longgar,Assembly,53.0
+2026-04-27,S04,HSG-01,Housing retak,Material,50.0
+2026-04-27,S04,HSG-02,Housing tidak rapat,Assembly,49.0
+2026-04-27,S05,POT-01,Potting bergelembung,Assembly,58.0
+2026-04-27,S05,POT-02,Potting kurang,Assembly,43.0
+2026-04-27,S06,WIR-01,Kabel putus,Electrical,42.0
+2026-04-27,S06,WIR-02,Polaritas terbalik,Electrical,38.0
+2026-04-27,S07,BRN-01,Gagal menyala saat burn-in,Electrical,181.0
+2026-04-27,S07,BRN-02,LED redup,Optical,202.0
+2026-04-27,S07,BRN-03,Flicker,Electrical,165.0
+2026-04-27,S08,PHM-01,Flux di bawah spec,Optical,64.0
+2026-04-27,S08,PHM-02,CCT di luar spec,Optical,68.0
+2026-04-27,S08,PHM-03,CRI di bawah spec,Optical,71.0
+2026-04-27,S09,FQC-01,Cacat visual,Cosmetic,37.0
+2026-04-27,S09,FQC-02,Label salah,Cosmetic,40.0
+2026-04-27,S10,PKG-01,Kemasan rusak,Packaging,37.0
+2026-05-04,S01,CHP-01,Chip bergeser,Assembly,75.0
+2026-05-04,S01,CHP-02,Chip retak,Material,32.0
+2026-05-04,S02,SLD-01,Solder dingin,Assembly,32.0
+2026-05-04,S02,SLD-02,Solder jembatan,Assembly,33.0
+2026-05-04,S02,SLD-03,Solder kurang,Assembly,42.0
+2026-05-04,S03,DRV-01,Driver tidak menyala,Electrical,57.0
+2026-05-04,S03,DRV-02,Konektor longgar,Assembly,61.0
+2026-05-04,S04,HSG-01,Housing retak,Material,46.0
+2026-05-04,S04,HSG-02,Housing tidak rapat,Assembly,53.0
+2026-05-04,S05,POT-01,Potting bergelembung,Assembly,43.0
+2026-05-04,S05,POT-02,Potting kurang,Assembly,61.0
+2026-05-04,S06,WIR-01,Kabel putus,Electrical,46.0
+2026-05-04,S06,WIR-02,Polaritas terbalik,Electrical,33.0
+2026-05-04,S07,BRN-01,Gagal menyala saat burn-in,Electrical,172.0
+2026-05-04,S07,BRN-02,LED redup,Optical,161.0
+2026-05-04,S07,BRN-03,Flicker,Electrical,167.0
+2026-05-04,S08,PHM-01,Flux di bawah spec,Optical,51.0
+2026-05-04,S08,PHM-02,CCT di luar spec,Optical,57.0
+2026-05-04,S08,PHM-03,CRI di bawah spec,Optical,61.0
+2026-05-04,S09,FQC-01,Cacat visual,Cosmetic,25.0
+2026-05-04,S09,FQC-02,Label salah,Cosmetic,34.0
+2026-05-04,S10,PKG-01,Kemasan rusak,Packaging,39.0
+2026-05-11,S01,CHP-01,Chip bergeser,Assembly,41.0
+2026-05-11,S01,CHP-02,Chip retak,Material,46.0
+2026-05-11,S02,SLD-01,Solder dingin,Assembly,52.0
+2026-05-11,S02,SLD-02,Solder jembatan,Assembly,41.0
+2026-05-11,S02,SLD-03,Solder kurang,Assembly,50.0
+2026-05-11,S03,DRV-01,Driver tidak menyala,Electrical,52.0
+2026-05-11,S03,DRV-02,Konektor longgar,Assembly,37.0
+2026-05-11,S04,HSG-01,Housing retak,Material,41.0
+2026-05-11,S04,HSG-02,Housing tidak rapat,Assembly,37.0
+2026-05-11,S05,POT-01,Potting bergelembung,Assembly,54.0
+2026-05-11,S05,POT-02,Potting kurang,Assembly,49.0
+2026-05-11,S06,WIR-01,Kabel putus,Electrical,37.0
+2026-05-11,S06,WIR-02,Polaritas terbalik,Electrical,33.0
+2026-05-11,S07,BRN-01,Gagal menyala saat burn-in,Electrical,147.0
+2026-05-11,S07,BRN-02,LED redup,Optical,170.0
+2026-05-11,S07,BRN-03,Flicker,Electrical,185.0
+2026-05-11,S08,PHM-01,Flux di bawah spec,Optical,70.0
+2026-05-11,S08,PHM-02,CCT di luar spec,Optical,46.0
+2026-05-11,S08,PHM-03,CRI di bawah spec,Optical,54.0
+2026-05-11,S09,FQC-01,Cacat visual,Cosmetic,23.0
+2026-05-11,S09,FQC-02,Label salah,Cosmetic,28.0
+2026-05-11,S10,PKG-01,Kemasan rusak,Packaging,30.0
+2026-05-18,S01,CHP-01,Chip bergeser,Assembly,45.0
+2026-05-18,S01,CHP-02,Chip retak,Material,58.0
+2026-05-18,S02,SLD-01,Solder dingin,Assembly,45.0
+2026-05-18,S02,SLD-02,Solder jembatan,Assembly,39.0
+2026-05-18,S02,SLD-03,Solder kurang,Assembly,42.0
+2026-05-18,S03,DRV-01,Driver tidak menyala,Electrical,58.0
+2026-05-18,S03,DRV-02,Konektor longgar,Assembly,61.0
+2026-05-18,S04,HSG-01,Housing retak,Material,49.0
+2026-05-18,S04,HSG-02,Housing tidak rapat,Assembly,48.0
+2026-05-18,S05,POT-01,Potting bergelembung,Assembly,45.0
+2026-05-18,S05,POT-02,Potting kurang,Assembly,42.0
+2026-05-18,S06,WIR-01,Kabel putus,Electrical,49.0
+2026-05-18,S06,WIR-02,Polaritas terbalik,Electrical,40.0
+2026-05-18,S07,BRN-01,Gagal menyala saat burn-in,Electrical,169.0
+2026-05-18,S07,BRN-02,LED redup,Optical,161.0
+2026-05-18,S07,BRN-03,Flicker,Electrical,165.0
+2026-05-18,S08,PHM-01,Flux di bawah spec,Optical,59.0
+2026-05-18,S08,PHM-02,CCT di luar spec,Optical,48.0
+2026-05-18,S08,PHM-03,CRI di bawah spec,Optical,60.0
+2026-05-18,S09,FQC-01,Cacat visual,Cosmetic,36.0
+2026-05-18,S09,FQC-02,Label salah,Cosmetic,25.0
+2026-05-18,S10,PKG-01,Kemasan rusak,Packaging,34.0
+2026-05-25,S01,CHP-01,Chip bergeser,Assembly,51.0
+2026-05-25,S01,CHP-02,Chip retak,Material,37.0
+2026-05-25,S02,SLD-01,Solder dingin,Assembly,59.0
+2026-05-25,S02,SLD-02,Solder jembatan,Assembly,51.0
+2026-05-25,S02,SLD-03,Solder kurang,Assembly,36.0
+2026-05-25,S03,DRV-01,Driver tidak menyala,Electrical,60.0
+2026-05-25,S03,DRV-02,Konektor longgar,Assembly,52.0
+2026-05-25,S04,HSG-01,Housing retak,Material,37.0
+2026-05-25,S04,HSG-02,Housing tidak rapat,Assembly,54.0
+2026-05-25,S05,POT-01,Potting bergelembung,Assembly,52.0
+2026-05-25,S05,POT-02,Potting kurang,Assembly,54.0
+2026-05-25,S06,WIR-01,Kabel putus,Electrical,31.0
+2026-05-25,S06,WIR-02,Polaritas terbalik,Electrical,23.0
+2026-05-25,S07,BRN-01,Gagal menyala saat burn-in,Electrical,169.0
+2026-05-25,S07,BRN-02,LED redup,Optical,180.0
+2026-05-25,S07,BRN-03,Flicker,Electrical,188.0
+2026-05-25,S08,PHM-01,Flux di bawah spec,Optical,58.0
+2026-05-25,S08,PHM-02,CCT di luar spec,Optical,48.0
+2026-05-25,S08,PHM-03,CRI di bawah spec,Optical,63.0
+2026-05-25,S09,FQC-01,Cacat visual,Cosmetic,33.0
+2026-05-25,S09,FQC-02,Label salah,Cosmetic,29.0
+2026-05-25,S10,PKG-01,Kemasan rusak,Packaging,43.0
+2026-06-01,S01,CHP-01,Chip bergeser,Assembly,62.0
+2026-06-01,S01,CHP-02,Chip retak,Material,42.0
+2026-06-01,S02,SLD-01,Solder dingin,Assembly,43.0
+2026-06-01,S02,SLD-02,Solder jembatan,Assembly,27.0
+2026-06-01,S02,SLD-03,Solder kurang,Assembly,51.0
+2026-06-01,S03,DRV-01,Driver tidak menyala,Electrical,44.0
+2026-06-01,S03,DRV-02,Konektor longgar,Assembly,54.0
+2026-06-01,S04,HSG-01,Housing retak,Material,43.0
+2026-06-01,S04,HSG-02,Housing tidak rapat,Assembly,50.0
+2026-06-01,S05,POT-01,Potting bergelembung,Assembly,49.0
+2026-06-01,S05,POT-02,Potting kurang,Assembly,54.0
+2026-06-01,S06,WIR-01,Kabel putus,Electrical,31.0
+2026-06-01,S06,WIR-02,Polaritas terbalik,Electrical,37.0
+2026-06-01,S07,BRN-01,Gagal menyala saat burn-in,Electrical,171.0
+2026-06-01,S07,BRN-02,LED redup,Optical,181.0
+2026-06-01,S07,BRN-03,Flicker,Electrical,188.0
+2026-06-01,S08,PHM-01,Flux di bawah spec,Optical,51.0
+2026-06-01,S08,PHM-02,CCT di luar spec,Optical,61.0
+2026-06-01,S08,PHM-03,CRI di bawah spec,Optical,54.0
+2026-06-01,S09,FQC-01,Cacat visual,Cosmetic,37.0
+2026-06-01,S09,FQC-02,Label salah,Cosmetic,32.0
+2026-06-01,S10,PKG-01,Kemasan rusak,Packaging,36.0
+2026-06-08,S01,CHP-01,Chip bergeser,Assembly,46.0
+2026-06-08,S01,CHP-02,Chip retak,Material,54.0
+2026-06-08,S02,SLD-01,Solder dingin,Assembly,47.0
+2026-06-08,S02,SLD-02,Solder jembatan,Assembly,52.0
+2026-06-08,S02,SLD-03,Solder kurang,Assembly,30.0
+2026-06-08,S03,DRV-01,Driver tidak menyala,Electrical,50.0
+2026-06-08,S03,DRV-02,Konektor longgar,Assembly,40.0
+2026-06-08,S04,HSG-01,Housing retak,Material,50.0
+2026-06-08,S04,HSG-02,Housing tidak rapat,Assembly,51.0
+2026-06-08,S05,POT-01,Potting bergelembung,Assembly,45.0
+2026-06-08,S05,POT-02,Potting kurang,Assembly,44.0
+2026-06-08,S06,WIR-01,Kabel putus,Electrical,44.0
+2026-06-08,S06,WIR-02,Polaritas terbalik,Electrical,43.0
+2026-06-08,S07,BRN-01,Gagal menyala saat burn-in,Electrical,181.0
+2026-06-08,S07,BRN-02,LED redup,Optical,190.0
+2026-06-08,S07,BRN-03,Flicker,Electrical,166.0
+2026-06-08,S08,PHM-01,Flux di bawah spec,Optical,234.0
+2026-06-08,S08,PHM-02,CCT di luar spec,Optical,217.0
+2026-06-08,S08,PHM-03,CRI di bawah spec,Optical,210.0
+2026-06-08,S09,FQC-01,Cacat visual,Cosmetic,26.0
+2026-06-08,S09,FQC-02,Label salah,Cosmetic,36.0
+2026-06-08,S10,PKG-01,Kemasan rusak,Packaging,41.0
+2026-06-15,S01,CHP-01,Chip bergeser,Assembly,36.0
+2026-06-15,S01,CHP-02,Chip retak,Material,41.0
+2026-06-15,S02,SLD-01,Solder dingin,Assembly,48.0
+2026-06-15,S02,SLD-02,Solder jembatan,Assembly,47.0
+2026-06-15,S02,SLD-03,Solder kurang,Assembly,52.0
+2026-06-15,S03,DRV-01,Driver tidak menyala,Electrical,45.0
+2026-06-15,S03,DRV-02,Konektor longgar,Assembly,71.0
+2026-06-15,S04,HSG-01,Housing retak,Material,55.0
+2026-06-15,S04,HSG-02,Housing tidak rapat,Assembly,43.0
+2026-06-15,S05,POT-01,Potting bergelembung,Assembly,55.0
+2026-06-15,S05,POT-02,Potting kurang,Assembly,43.0
+2026-06-15,S06,WIR-01,Kabel putus,Electrical,34.0
+2026-06-15,S06,WIR-02,Polaritas terbalik,Electrical,40.0
+2026-06-15,S07,BRN-01,Gagal menyala saat burn-in,Electrical,179.0
+2026-06-15,S07,BRN-02,LED redup,Optical,167.0
+2026-06-15,S07,BRN-03,Flicker,Electrical,156.0
+2026-06-15,S08,PHM-01,Flux di bawah spec,Optical,54.0
+2026-06-15,S08,PHM-02,CCT di luar spec,Optical,50.0
+2026-06-15,S08,PHM-03,CRI di bawah spec,Optical,58.0
+2026-06-15,S09,FQC-01,Cacat visual,Cosmetic,34.0
+2026-06-15,S09,FQC-02,Label salah,Cosmetic,25.0
+2026-06-15,S10,PKG-01,Kemasan rusak,Packaging,28.0
+2026-06-22,S01,CHP-01,Chip bergeser,Assembly,55.0
+2026-06-22,S01,CHP-02,Chip retak,Material,41.0
+2026-06-22,S02,SLD-01,Solder dingin,Assembly,52.0
+2026-06-22,S02,SLD-02,Solder jembatan,Assembly,45.0
+2026-06-22,S02,SLD-03,Solder kurang,Assembly,58.0
+2026-06-22,S03,DRV-01,Driver tidak menyala,Electrical,65.0
+2026-06-22,S03,DRV-02,Konektor longgar,Assembly,46.0
+2026-06-22,S04,HSG-01,Housing retak,Material,48.0
+2026-06-22,S04,HSG-02,Housing tidak rapat,Assembly,51.0
+2026-06-22,S05,POT-01,Potting bergelembung,Assembly,69.0
+2026-06-22,S05,POT-02,Potting kurang,Assembly,45.0
+2026-06-22,S06,WIR-01,Kabel putus,Electrical,42.0
+2026-06-22,S06,WIR-02,Polaritas terbalik,Electrical,45.0
+2026-06-22,S07,BRN-01,Gagal menyala saat burn-in,Electrical,147.0
+2026-06-22,S07,BRN-02,LED redup,Optical,201.0
+2026-06-22,S07,BRN-03,Flicker,Electrical,175.0
+2026-06-22,S08,PHM-01,Flux di bawah spec,Optical,63.0
+2026-06-22,S08,PHM-02,CCT di luar spec,Optical,52.0
+2026-06-22,S08,PHM-03,CRI di bawah spec,Optical,64.0
+2026-06-22,S09,FQC-01,Cacat visual,Cosmetic,42.0
+2026-06-22,S09,FQC-02,Label salah,Cosmetic,35.0
+2026-06-22,S10,PKG-01,Kemasan rusak,Packaging,34.0
+2026-06-29,S01,CHP-01,Chip bergeser,Assembly,66.0
+2026-06-29,S01,CHP-02,Chip retak,Material,44.0
+2026-06-29,S02,SLD-01,Solder dingin,Assembly,57.0
+2026-06-29,S02,SLD-02,Solder jembatan,Assembly,44.0
+2026-06-29,S02,SLD-03,Solder kurang,Assembly,43.0
+2026-06-29,S03,DRV-01,Driver tidak menyala,Electrical,68.0
+2026-06-29,S03,DRV-02,Konektor longgar,Assembly,62.0
+2026-06-29,S04,HSG-01,Housing retak,Material,45.0
+2026-06-29,S04,HSG-02,Housing tidak rapat,Assembly,52.0
+2026-06-29,S05,POT-01,Potting bergelembung,Assembly,54.0
+2026-06-29,S05,POT-02,Potting kurang,Assembly,62.0
+2026-06-29,S06,WIR-01,Kabel putus,Electrical,41.0
+2026-06-29,S06,WIR-02,Polaritas terbalik,Electrical,39.0
+2026-06-29,S07,BRN-01,Gagal menyala saat burn-in,Electrical,195.0
+2026-06-29,S07,BRN-02,LED redup,Optical,158.0
+2026-06-29,S07,BRN-03,Flicker,Electrical,188.0
+2026-06-29,S08,PHM-01,Flux di bawah spec,Optical,46.0
+2026-06-29,S08,PHM-02,CCT di luar spec,Optical,51.0
+2026-06-29,S08,PHM-03,CRI di bawah spec,Optical,58.0
+2026-06-29,S09,FQC-01,Cacat visual,Cosmetic,31.0
+2026-06-29,S09,FQC-02,Label salah,Cosmetic,51.0
+2026-06-29,S10,PKG-01,Kemasan rusak,Packaging,38.0
+2026-07-06,S01,CHP-01,Chip bergeser,Assembly,58.0
+2026-07-06,S01,CHP-02,Chip retak,Material,55.0
+2026-07-06,S02,SLD-01,Solder dingin,Assembly,62.0
+2026-07-06,S02,SLD-02,Solder jembatan,Assembly,54.0
+2026-07-06,S02,SLD-03,Solder kurang,Assembly,53.0
+2026-07-06,S03,DRV-01,Driver tidak menyala,Electrical,59.0
+2026-07-06,S03,DRV-02,Konektor longgar,Assembly,59.0
+2026-07-06,S04,HSG-01,Housing retak,Material,50.0
+2026-07-06,S04,HSG-02,Housing tidak rapat,Assembly,45.0
+2026-07-06,S05,POT-01,Potting bergelembung,Assembly,44.0
+2026-07-06,S05,POT-02,Potting kurang,Assembly,50.0
+2026-07-06,S06,WIR-01,Kabel putus,Electrical,34.0
+2026-07-06,S06,WIR-02,Polaritas terbalik,Electrical,31.0
+2026-07-06,S07,BRN-01,Gagal menyala saat burn-in,Electrical,156.0
+2026-07-06,S07,BRN-02,LED redup,Optical,189.0
+2026-07-06,S07,BRN-03,Flicker,Electrical,178.0
+2026-07-06,S08,PHM-01,Flux di bawah spec,Optical,60.0
+2026-07-06,S08,PHM-02,CCT di luar spec,Optical,51.0
+2026-07-06,S08,PHM-03,CRI di bawah spec,Optical,59.0
+2026-07-06,S09,FQC-01,Cacat visual,Cosmetic,30.0
+2026-07-06,S09,FQC-02,Label salah,Cosmetic,36.0
+2026-07-06,S10,PKG-01,Kemasan rusak,Packaging,31.0
+2026-07-13,S01,CHP-01,Chip bergeser,Assembly,53.0
+2026-07-13,S01,CHP-02,Chip retak,Material,51.0
+2026-07-13,S02,SLD-01,Solder dingin,Assembly,47.0
+2026-07-13,S02,SLD-02,Solder jembatan,Assembly,39.0
+2026-07-13,S02,SLD-03,Solder kurang,Assembly,42.0
+2026-07-13,S03,DRV-01,Driver tidak menyala,Electrical,60.0
+2026-07-13,S03,DRV-02,Konektor longgar,Assembly,53.0
+2026-07-13,S04,HSG-01,Housing retak,Material,42.0
+2026-07-13,S04,HSG-02,Housing tidak rapat,Assembly,45.0
+2026-07-13,S05,POT-01,Potting bergelembung,Assembly,49.0
+2026-07-13,S05,POT-02,Potting kurang,Assembly,50.0
+2026-07-13,S06,WIR-01,Kabel putus,Electrical,42.0
+2026-07-13,S06,WIR-02,Polaritas terbalik,Electrical,34.0
+2026-07-13,S07,BRN-01,Gagal menyala saat burn-in,Electrical,184.0
+2026-07-13,S07,BRN-02,LED redup,Optical,173.0
+2026-07-13,S07,BRN-03,Flicker,Electrical,157.0
+2026-07-13,S08,PHM-01,Flux di bawah spec,Optical,51.0
+2026-07-13,S08,PHM-02,CCT di luar spec,Optical,59.0
+2026-07-13,S08,PHM-03,CRI di bawah spec,Optical,52.0
+2026-07-13,S09,FQC-01,Cacat visual,Cosmetic,42.0
+2026-07-13,S09,FQC-02,Label salah,Cosmetic,34.0
+2026-07-13,S10,PKG-01,Kemasan rusak,Packaging,49.0
+2026-07-20,S01,CHP-01,Chip bergeser,Assembly,47.0
+2026-07-20,S01,CHP-02,Chip retak,Material,46.0
+2026-07-20,S02,SLD-01,Solder dingin,Assembly,46.0
+2026-07-20,S02,SLD-02,Solder jembatan,Assembly,44.0
+2026-07-20,S02,SLD-03,Solder kurang,Assembly,50.0
+2026-07-20,S03,DRV-01,Driver tidak menyala,Electrical,46.0
+2026-07-20,S03,DRV-02,Konektor longgar,Assembly,45.0
+2026-07-20,S04,HSG-01,Housing retak,Material,55.0
+2026-07-20,S04,HSG-02,Housing tidak rapat,Assembly,39.0
+2026-07-20,S05,POT-01,Potting bergelembung,Assembly,48.0
+2026-07-20,S05,POT-02,Potting kurang,Assembly,51.0
+2026-07-20,S06,WIR-01,Kabel putus,Electrical,38.0
+2026-07-20,S06,WIR-02,Polaritas terbalik,Electrical,38.0
+2026-07-20,S07,BRN-01,Gagal menyala saat burn-in,Electrical,167.0
+2026-07-20,S07,BRN-02,LED redup,Optical,162.0
+2026-07-20,S07,BRN-03,Flicker,Electrical,158.0
+2026-07-20,S08,PHM-01,Flux di bawah spec,Optical,54.0
+2026-07-20,S08,PHM-02,CCT di luar spec,Optical,60.0
+2026-07-20,S08,PHM-03,CRI di bawah spec,Optical,62.0
+2026-07-20,S09,FQC-01,Cacat visual,Cosmetic,37.0
+2026-07-20,S09,FQC-02,Label salah,Cosmetic,28.0
+2026-07-20,S10,PKG-01,Kemasan rusak,Packaging,43.0
+2026-07-27,S01,CHP-01,Chip bergeser,Assembly,44.0
+2026-07-27,S01,CHP-02,Chip retak,Material,45.0
+2026-07-27,S02,SLD-01,Solder dingin,Assembly,59.0
+2026-07-27,S02,SLD-02,Solder jembatan,Assembly,40.0
+2026-07-27,S02,SLD-03,Solder kurang,Assembly,41.0
+2026-07-27,S03,DRV-01,Driver tidak menyala,Electrical,62.0
+2026-07-27,S03,DRV-02,Konektor longgar,Assembly,55.0
+2026-07-27,S04,HSG-01,Housing retak,Material,48.0
+2026-07-27,S04,HSG-02,Housing tidak rapat,Assembly,49.0
+2026-07-27,S05,POT-01,Potting bergelembung,Assembly,49.0
+2026-07-27,S05,POT-02,Potting kurang,Assembly,57.0
+2026-07-27,S06,WIR-01,Kabel putus,Electrical,38.0
+2026-07-27,S06,WIR-02,Polaritas terbalik,Electrical,39.0
+2026-07-27,S07,BRN-01,Gagal menyala saat burn-in,Electrical,174.0
+2026-07-27,S07,BRN-02,LED redup,Optical,170.0
+2026-07-27,S07,BRN-03,Flicker,Electrical,168.0
+2026-07-27,S08,PHM-01,Flux di bawah spec,Optical,62.0
+2026-07-27,S08,PHM-02,CCT di luar spec,Optical,60.0
+2026-07-27,S08,PHM-03,CRI di bawah spec,Optical,58.0
+2026-07-27,S09,FQC-01,Cacat visual,Cosmetic,42.0
+2026-07-27,S09,FQC-02,Label salah,Cosmetic,38.0
+2026-07-27,S10,PKG-01,Kemasan rusak,Packaging,41.0
+2026-08-03,S01,CHP-01,Chip bergeser,Assembly,46.0
+2026-08-03,S01,CHP-02,Chip retak,Material,56.0
+2026-08-03,S02,SLD-01,Solder dingin,Assembly,46.0
+2026-08-03,S02,SLD-02,Solder jembatan,Assembly,42.0
+2026-08-03,S02,SLD-03,Solder kurang,Assembly,34.0
+2026-08-03,S03,DRV-01,Driver tidak menyala,Electrical,42.0
+2026-08-03,S03,DRV-02,Konektor longgar,Assembly,53.0
+2026-08-03,S04,HSG-01,Housing retak,Material,51.0
+2026-08-03,S04,HSG-02,Housing tidak rapat,Assembly,47.0
+2026-08-03,S05,POT-01,Potting bergelembung,Assembly,59.0
+2026-08-03,S05,POT-02,Potting kurang,Assembly,46.0
+2026-08-03,S06,WIR-01,Kabel putus,Electrical,43.0
+2026-08-03,S06,WIR-02,Polaritas terbalik,Electrical,49.0
+2026-08-03,S07,BRN-01,Gagal menyala saat burn-in,Electrical,174.0
+2026-08-03,S07,BRN-02,LED redup,Optical,189.0
+2026-08-03,S07,BRN-03,Flicker,Electrical,157.0
+2026-08-03,S08,PHM-01,Flux di bawah spec,Optical,66.0
+2026-08-03,S08,PHM-02,CCT di luar spec,Optical,57.0
+2026-08-03,S08,PHM-03,CRI di bawah spec,Optical,73.0
+2026-08-03,S09,FQC-01,Cacat visual,Cosmetic,27.0
+2026-08-03,S09,FQC-02,Label salah,Cosmetic,38.0
+2026-08-03,S10,PKG-01,Kemasan rusak,Packaging,37.0
+2026-08-10,S01,CHP-01,Chip bergeser,Assembly,48.0
+2026-08-10,S01,CHP-02,Chip retak,Material,65.0
+2026-08-10,S02,SLD-01,Solder dingin,Assembly,39.0
+2026-08-10,S02,SLD-02,Solder jembatan,Assembly,38.0
+2026-08-10,S02,SLD-03,Solder kurang,Assembly,49.0
+2026-08-10,S03,DRV-01,Driver tidak menyala,Electrical,60.0
+2026-08-10,S03,DRV-02,Konektor longgar,Assembly,58.0
+2026-08-10,S04,HSG-01,Housing retak,Material,54.0
+2026-08-10,S04,HSG-02,Housing tidak rapat,Assembly,40.0
+2026-08-10,S05,POT-01,Potting bergelembung,Assembly,50.0
+2026-08-10,S05,POT-02,Potting kurang,Assembly,55.0
+2026-08-10,S06,WIR-01,Kabel putus,Electrical,49.0
+2026-08-10,S06,WIR-02,Polaritas terbalik,Electrical,38.0
+2026-08-10,S07,BRN-01,Gagal menyala saat burn-in,Electrical,177.0
+2026-08-10,S07,BRN-02,LED redup,Optical,189.0
+2026-08-10,S07,BRN-03,Flicker,Electrical,175.0
+2026-08-10,S08,PHM-01,Flux di bawah spec,Optical,53.0
+2026-08-10,S08,PHM-02,CCT di luar spec,Optical,58.0
+2026-08-10,S08,PHM-03,CRI di bawah spec,Optical,70.0
+2026-08-10,S09,FQC-01,Cacat visual,Cosmetic,33.0
+2026-08-10,S09,FQC-02,Label salah,Cosmetic,26.0
+2026-08-10,S10,PKG-01,Kemasan rusak,Packaging,33.0
+2026-08-17,S01,CHP-01,Chip bergeser,Assembly,51.0
+2026-08-17,S01,CHP-02,Chip retak,Material,40.0
+2026-08-17,S02,SLD-01,Solder dingin,Assembly,61.0
+2026-08-17,S02,SLD-02,Solder jembatan,Assembly,61.0
+2026-08-17,S02,SLD-03,Solder kurang,Assembly,51.0
+2026-08-17,S03,DRV-01,Driver tidak menyala,Electrical,64.0
+2026-08-17,S03,DRV-02,Konektor longgar,Assembly,45.0
+2026-08-17,S04,HSG-01,Housing retak,Material,47.0
+2026-08-17,S04,HSG-02,Housing tidak rapat,Assembly,47.0
+2026-08-17,S05,POT-01,Potting bergelembung,Assembly,62.0
+2026-08-17,S05,POT-02,Potting kurang,Assembly,42.0
+2026-08-17,S06,WIR-01,Kabel putus,Electrical,29.0
+2026-08-17,S06,WIR-02,Polaritas terbalik,Electrical,34.0
+2026-08-17,S07,BRN-01,Gagal menyala saat burn-in,Electrical,160.0
+2026-08-17,S07,BRN-02,LED redup,Optical,186.0
+2026-08-17,S07,BRN-03,Flicker,Electrical,186.0
+2026-08-17,S08,PHM-01,Flux di bawah spec,Optical,62.0
+2026-08-17,S08,PHM-02,CCT di luar spec,Optical,64.0
+2026-08-17,S08,PHM-03,CRI di bawah spec,Optical,59.0
+2026-08-17,S09,FQC-01,Cacat visual,Cosmetic,31.0
+2026-08-17,S09,FQC-02,Label salah,Cosmetic,31.0
+2026-08-17,S10,PKG-01,Kemasan rusak,Packaging,43.0
+2026-08-24,S01,CHP-01,Chip bergeser,Assembly,35.0
+2026-08-24,S01,CHP-02,Chip retak,Material,43.0
+2026-08-24,S02,SLD-01,Solder dingin,Assembly,37.0
+2026-08-24,S02,SLD-02,Solder jembatan,Assembly,38.0
+2026-08-24,S02,SLD-03,Solder kurang,Assembly,46.0
+2026-08-24,S03,DRV-01,Driver tidak menyala,Electrical,63.0
+2026-08-24,S03,DRV-02,Konektor longgar,Assembly,60.0
+2026-08-24,S04,HSG-01,Housing retak,Material,50.0
+2026-08-24,S04,HSG-02,Housing tidak rapat,Assembly,49.0
+2026-08-24,S05,POT-01,Potting bergelembung,Assembly,36.0
+2026-08-24,S05,POT-02,Potting kurang,Assembly,57.0
+2026-08-24,S06,WIR-01,Kabel putus,Electrical,48.0
+2026-08-24,S06,WIR-02,Polaritas terbalik,Electrical,37.0
+2026-08-24,S07,BRN-01,Gagal menyala saat burn-in,Electrical,169.0
+2026-08-24,S07,BRN-02,LED redup,Optical,172.0
+2026-08-24,S07,BRN-03,Flicker,Electrical,169.0
+2026-08-24,S08,PHM-01,Flux di bawah spec,Optical,64.0
+2026-08-24,S08,PHM-02,CCT di luar spec,Optical,62.0
+2026-08-24,S08,PHM-03,CRI di bawah spec,Optical,46.0
+2026-08-24,S09,FQC-01,Cacat visual,Cosmetic,24.0
+2026-08-24,S09,FQC-02,Label salah,Cosmetic,38.0
+2026-08-24,S10,PKG-01,Kemasan rusak,Packaging,31.0
+2026-08-31,S01,CHP-01,Chip bergeser,Assembly,39.0
+2026-08-31,S01,CHP-02,Chip retak,Material,46.0
+2026-08-31,S02,SLD-01,Solder dingin,Assembly,35.0
+2026-08-31,S02,SLD-02,Solder jembatan,Assembly,48.0
+2026-08-31,S02,SLD-03,Solder kurang,Assembly,32.0
+2026-08-31,S03,DRV-01,Driver tidak menyala,Electrical,56.0
+2026-08-31,S03,DRV-02,Konektor longgar,Assembly,54.0
+2026-08-31,S04,HSG-01,Housing retak,Material,61.0
+2026-08-31,S04,HSG-02,Housing tidak rapat,Assembly,49.0
+2026-08-31,S05,POT-01,Potting bergelembung,Assembly,58.0
+2026-08-31,S05,POT-02,Potting kurang,Assembly,51.0
+2026-08-31,S06,WIR-01,Kabel putus,Electrical,40.0
+2026-08-31,S06,WIR-02,Polaritas terbalik,Electrical,40.0
+2026-08-31,S07,BRN-01,Gagal menyala saat burn-in,Electrical,189.0
+2026-08-31,S07,BRN-02,LED redup,Optical,193.0
+2026-08-31,S07,BRN-03,Flicker,Electrical,178.0
+2026-08-31,S08,PHM-01,Flux di bawah spec,Optical,62.0
+2026-08-31,S08,PHM-02,CCT di luar spec,Optical,59.0
+2026-08-31,S08,PHM-03,CRI di bawah spec,Optical,64.0
+2026-08-31,S09,FQC-01,Cacat visual,Cosmetic,27.0
+2026-08-31,S09,FQC-02,Label salah,Cosmetic,30.0
+2026-08-31,S10,PKG-01,Kemasan rusak,Packaging,26.0
+2026-09-07,S01,CHP-01,Chip bergeser,Assembly,47.0
+2026-09-07,S01,CHP-02,Chip retak,Material,51.0
+2026-09-07,S02,SLD-01,Solder dingin,Assembly,31.0
+2026-09-07,S02,SLD-02,Solder jembatan,Assembly,34.0
+2026-09-07,S02,SLD-03,Solder kurang,Assembly,35.0
+2026-09-07,S03,DRV-01,Driver tidak menyala,Electrical,65.0
+2026-09-07,S03,DRV-02,Konektor longgar,Assembly,53.0
+2026-09-07,S04,HSG-01,Housing retak,Material,52.0
+2026-09-07,S04,HSG-02,Housing tidak rapat,Assembly,50.0
+2026-09-07,S05,POT-01,Potting bergelembung,Assembly,62.0
+2026-09-07,S05,POT-02,Potting kurang,Assembly,46.0
+2026-09-07,S06,WIR-01,Kabel putus,Electrical,40.0
+2026-09-07,S06,WIR-02,Polaritas terbalik,Electrical,46.0
+2026-09-07,S07,BRN-01,Gagal menyala saat burn-in,Electrical,177.0
+2026-09-07,S07,BRN-02,LED redup,Optical,158.0
+2026-09-07,S07,BRN-03,Flicker,Electrical,156.0
+2026-09-07,S08,PHM-01,Flux di bawah spec,Optical,70.0
+2026-09-07,S08,PHM-02,CCT di luar spec,Optical,64.0
+2026-09-07,S08,PHM-03,CRI di bawah spec,Optical,46.0
+2026-09-07,S09,FQC-01,Cacat visual,Cosmetic,27.0
+2026-09-07,S09,FQC-02,Label salah,Cosmetic,33.0
+2026-09-07,S10,PKG-01,Kemasan rusak,Packaging,35.0
+2026-09-14,S01,CHP-01,Chip bergeser,Assembly,52.0
+2026-09-14,S01,CHP-02,Chip retak,Material,55.0
+2026-09-14,S02,SLD-01,Solder dingin,Assembly,48.0
+2026-09-14,S02,SLD-02,Solder jembatan,Assembly,46.0
+2026-09-14,S02,SLD-03,Solder kurang,Assembly,46.0
+2026-09-14,S03,DRV-01,Driver tidak menyala,Electrical,56.0
+2026-09-14,S03,DRV-02,Konektor longgar,Assembly,69.0
+2026-09-14,S04,HSG-01,Housing retak,Material,43.0
+2026-09-14,S04,HSG-02,Housing tidak rapat,Assembly,43.0
+2026-09-14,S05,POT-01,Potting bergelembung,Assembly,42.0
+2026-09-14,S05,POT-02,Potting kurang,Assembly,52.0
+2026-09-14,S06,WIR-01,Kabel putus,Electrical,44.0
+2026-09-14,S06,WIR-02,Polaritas terbalik,Electrical,33.0
+2026-09-14,S07,BRN-01,Gagal menyala saat burn-in,Electrical,178.0
+2026-09-14,S07,BRN-02,LED redup,Optical,160.0
+2026-09-14,S07,BRN-03,Flicker,Electrical,177.0
+2026-09-14,S08,PHM-01,Flux di bawah spec,Optical,64.0
+2026-09-14,S08,PHM-02,CCT di luar spec,Optical,70.0
+2026-09-14,S08,PHM-03,CRI di bawah spec,Optical,53.0
+2026-09-14,S09,FQC-01,Cacat visual,Cosmetic,38.0
+2026-09-14,S09,FQC-02,Label salah,Cosmetic,22.0
+2026-09-14,S10,PKG-01,Kemasan rusak,Packaging,28.0
+2026-09-21,S01,CHP-01,Chip bergeser,Assembly,37.0
+2026-09-21,S01,CHP-02,Chip retak,Material,47.0
+2026-09-21,S02,SLD-01,Solder dingin,Assembly,41.0
+2026-09-21,S02,SLD-02,Solder jembatan,Assembly,41.0
+2026-09-21,S02,SLD-03,Solder kurang,Assembly,47.0
+2026-09-21,S03,DRV-01,Driver tidak menyala,Electrical,54.0
+2026-09-21,S03,DRV-02,Konektor longgar,Assembly,59.0
+2026-09-21,S04,HSG-01,Housing retak,Material,45.0
+2026-09-21,S04,HSG-02,Housing tidak rapat,Assembly,40.0
+2026-09-21,S05,POT-01,Potting bergelembung,Assembly,63.0
+2026-09-21,S05,POT-02,Potting kurang,Assembly,45.0
+2026-09-21,S06,WIR-01,Kabel putus,Electrical,28.0
+2026-09-21,S06,WIR-02,Polaritas terbalik,Electrical,32.0
+2026-09-21,S07,BRN-01,Gagal menyala saat burn-in,Electrical,160.0
+2026-09-21,S07,BRN-02,LED redup,Optical,163.0
+2026-09-21,S07,BRN-03,Flicker,Electrical,163.0
+2026-09-21,S08,PHM-01,Flux di bawah spec,Optical,62.0
+2026-09-21,S08,PHM-02,CCT di luar spec,Optical,44.0
+2026-09-21,S08,PHM-03,CRI di bawah spec,Optical,52.0
+2026-09-21,S09,FQC-01,Cacat visual,Cosmetic,48.0
+2026-09-21,S09,FQC-02,Label salah,Cosmetic,30.0
+2026-09-21,S10,PKG-01,Kemasan rusak,Packaging,43.0

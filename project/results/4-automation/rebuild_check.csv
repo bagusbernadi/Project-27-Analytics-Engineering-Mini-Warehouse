@@ -1,0 +1,9 @@
+tabel,baris,sha256_run1,sha256_run2,sama
+stg_production,9000,b938d58ec098223a,b938d58ec098223a,True
+stg_defect,15999,c74ff07f81bd4ed7,c74ff07f81bd4ed7,True
+stg_rework,9645,752380bb2ed4c230,752380bb2ed4c230,True
+dim_station,10,861d9d09aa9deaeb,861d9d09aa9deaeb,True
+dim_defect,22,19dedc4f42ab82fe,19dedc4f42ab82fe,True
+fct_kpi_daily,9000,836f89894b5a6ff6,836f89894b5a6ff6,True
+fct_defect_pareto,660,c489988088455d8f,c489988088455d8f,True
+fct_line_weekly,90,49ec47e987970154,49ec47e987970154,True

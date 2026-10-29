@@ -1,0 +1,22 @@
+name: daily-warehouse
+on:
+  schedule:
+    - cron: "0 1 * * 1-5"      # 08:00 WIB, hari kerja
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13", cache: pip }
+      - run: pip install -r project/requirements.txt
+      - name: Bangkitkan data simulasi (seed tetap)
+        run: python project/code/1-data-preparation/python/01_generate_raw.py
+      - name: Muat, dbt build, gerbang publish
+        run: python project/code/4-automation/python/08_run_daily.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dbt-target
+          path: project/code/dbt/target/run_results.json

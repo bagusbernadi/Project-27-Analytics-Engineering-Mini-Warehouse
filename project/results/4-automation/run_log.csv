@@ -1,0 +1,12 @@
+run_date,jenis,file_baru,tes_pass,tes_warn,tes_error,model_sukses,gerbang
+2026-09-14,full load awal,140,54,6,0,8,publish
+2026-09-15,inkremental,1,54,6,0,8,publish
+2026-09-16,inkremental,1,54,6,0,8,publish
+2026-09-17,inkremental,1,54,6,0,8,publish
+2026-09-18,inkremental,1,54,6,0,8,publish
+2026-09-21,inkremental,1,54,6,0,8,publish
+2026-09-22,inkremental,1,54,6,0,8,publish
+2026-09-23,inkremental,1,54,6,0,8,publish
+2026-09-24,inkremental,1,54,6,0,8,publish
+2026-09-25,inkremental,1,54,6,0,8,publish
+2026-09-28,inkremental,1,54,6,0,8,publish

@@ -1,0 +1,6 @@
+fact_no,fakta,penangkap,temuan,hasil
+1,Burn-in Test paling sering NG,"analisis (fct_kpi_daily, Tabel KPI per stasiun)",Burn-in Test NG rate tertinggi: 3.70% (urutan 1 dari 10),Sesuai
+2,Lonjakan NG Photometric Test,analisis (anomali FPY stasiun per minggu),5 hari lonjakan 2026-06-08 s.d. 2026-06-12; minggu turun 2026-06-08 dengan stasiun terburuk S08,Sesuai
+3,Kolom file mentah berganti nama mulai bulan ke-4,test raw_schema_signature (hanya skema v1 diterima),"status fail: 60 file gagal, 60 file berubah",Sesuai
+4,Satu file terlambat 2 hari,test raw_file_freshness (warn),1 file terlambat: produksi_20260520.xlsx,Sesuai
+5,Data kotor,lima test raw_production_*,300 dari 300 baris kotor tertangkap (9060 baris mentah),Sesuai

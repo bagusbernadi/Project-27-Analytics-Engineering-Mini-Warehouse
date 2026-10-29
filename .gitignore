@@ -1,3 +1,17 @@
-data/*
-!data/README.md
+# data mentah dan database tidak di-commit (dibuat ulang dari skrip)
+project/data/raw/
+project/data/clean/
+project/*.duckdb
+project/*.duckdb.wal
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
+project/results/2-analysis/crosscheck.xlsx
+project/data/raw/benchmark_production.csv
+project/warehouse_daily_sim.duckdb
+project/published/
+project/published_sim/
+project/code/dbt/target/
+project/code/dbt/logs/
+project/code/dbt/dbt_packages/
+logs/

@@ -1,10 +1,10 @@
 """Project 27: file produksi, defect, dan rework harian (simulasi) pabrik lampu LED. Seed tetap.
 
-150 hari kerja -> 150 file Excel (data/sim/daily/produksi_YYYYMMDD.xlsx, masing-masing 3 sheet: production, defect, rework).
-+-9.000 baris produksi (10 stasiun x 3 model x 2 shift x 150 hari), +-15.000 baris defect. Hasil lain (data/sim/):
+150 hari kerja -> 150 file Excel (data/raw/daily/produksi_YYYYMMDD.xlsx, masing-masing 3 sheet: production, defect, rework).
++-9.000 baris produksi (10 stasiun x 3 model x 2 shift x 150 hari), +-15.000 baris defect. Hasil lain (data/raw/):
 file_manifest.csv (tanggal bisnis vs tanggal diterima), truth_*.csv (data bersih), ground_truth.json.
-Opsi benchmark: python scripts/generate_raw.py --big 1000000  -> data/sim/benchmark_production.csv (tidak termasuk jalan default).
-Jalankan: python scripts/generate_raw.py   (versi data: v1; butuh openpyxl)
+Opsi benchmark: python code/1-data-preparation/python/01_generate_raw.py --big 1000000  -> data/raw/benchmark_production.csv (tidak termasuk jalan default).
+Jalankan: python code/1-data-preparation/python/01_generate_raw.py   (versi data: v1; butuh openpyxl)
 """
 import io
 import json
@@ -17,8 +17,8 @@ import numpy as np
 import pandas as pd
 from openpyxl import Workbook
 
-ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data" / "sim"
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from common import RAW_DIR as OUT  # noqa: E402  (hasil ditulis ke project/data/raw/)
 SEED = 27260302
 DATA_VERSION = "v1"
 N_DAYS, START = 150, "2026-03-02"

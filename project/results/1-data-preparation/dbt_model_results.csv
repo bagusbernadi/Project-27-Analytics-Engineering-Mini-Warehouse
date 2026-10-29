@@ -1,0 +1,9 @@
+model,status,rows
+dim_defect,success,22
+dim_station,success,10
+fct_defect_pareto,success,660
+fct_kpi_daily,success,9000
+fct_line_weekly,success,90
+stg_defect,success,15999
+stg_production,success,9000
+stg_rework,success,9645

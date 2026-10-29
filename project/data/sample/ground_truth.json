@@ -1,0 +1,46 @@
+{
+  "seed": 27260302,
+  "version": "v1",
+  "n_files": 150,
+  "production_rows": 9000,
+  "defect_rows": 15999,
+  "facts": [
+    {
+      "id": 1,
+      "fact": "Burn-in Test paling sering NG",
+      "station": "Burn-in Test"
+    },
+    {
+      "id": 2,
+      "fact": "Lonjakan NG Photometric Test",
+      "start": "2026-06-08",
+      "end": "2026-06-12",
+      "factor": 4.0
+    },
+    {
+      "id": 3,
+      "fact": "Kolom file mentah berganti nama mulai bulan ke-4",
+      "from": "2026-07-06",
+      "production": {
+        "qty_input": "input_qty",
+        "qty_ok": "ok_qty",
+        "qty_ng": "ng_qty"
+      },
+      "defect": {
+        "defect_code": "defect_cd"
+      },
+      "new_column": "line_id"
+    },
+    {
+      "id": 4,
+      "fact": "Satu file terlambat 2 hari",
+      "file": "produksi_20260520.xlsx"
+    },
+    {
+      "id": 5,
+      "fact": "Data kotor",
+      "rate": 0.025,
+      "n_rows": 300
+    }
+  ]
+}

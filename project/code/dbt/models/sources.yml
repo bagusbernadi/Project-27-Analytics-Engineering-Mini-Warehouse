@@ -1,0 +1,16 @@
+version: 2
+sources:
+  - name: raw
+    description: "File Excel harian dimuat apa adanya (semua kolom teks) oleh 02_load_raw.py. Tidak ada transformasi."
+    schema: raw
+    tables:
+      - name: production
+        description: "Satu baris per stasiun, model, shift, hari dari sheet production. Memuat nama kolom lama dan baru (perubahan skema bulan ke-4) dan baris kotor."
+      - name: defect
+        description: "Jumlah per jenis defect dari sheet defect."
+      - name: rework
+        description: "Jumlah unit rework dan yang pulih dari sheet rework."
+      - name: file_columns
+        description: "Daftar kolom setiap sheet setiap file, untuk test skema."
+      - name: file_manifest
+        description: "Tanggal bisnis dan tanggal file diterima, untuk test kesegaran."

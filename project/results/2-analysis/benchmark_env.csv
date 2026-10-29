@@ -1,0 +1,2 @@
+python,platform,cpu_count,pandas,polars,duckdb
+3.13.18,Linux-6.18.44-fc-v185-x86_64-with-glibc2.39,2,3.0.5,2.1.0,2.0.0

@@ -1,0 +1,6 @@
+metrik,naif,bersih,keterangan
+baris dipakai,5400.0,9000.0,raw 9060 baris; mart per hari x stasiun x model x shift
+input_qty total,2520782.0,4199497.0,
+NG total,25420.0,42832.0,
+NG rate,0.010084172292566354,0.010199316727693817,
+FPY,0.9897289809273472,0.9898006832723062,FPY = ok_first_pass / input
