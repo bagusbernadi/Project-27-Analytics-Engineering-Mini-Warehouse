@@ -2,6 +2,8 @@
 
 **Halaman web:** https://bagusbernadi.github.io/Project-27-Analytics-Engineering-Mini-Warehouse/
 
+**Status: Selesai dan digabung ke `main`.** Dashboard belum di-deploy.
+
 File Excel produksi harian (150 file, tiga sheet, format sering berubah) dibersihkan dan diuji dengan **dbt + DuckDB**, lalu dihitung menjadi KPI yang bisa diaudit: FPY, NG rate, RTY, Pareto defect. **Data simulasi** buatan sendiri; hasilnya menguji metode, bukan kondisi pabrik.
 
 - Rancangan dan laporan (halaman web): `design-and-report/index.html`
